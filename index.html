@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Ben Øhman" />
+    <title>Arbeidskrav 1 JavaScript</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="intro">
+      <h1>Dette er en handleliste for viderekomne..</h1>
+    </div>
+
+    <h1>Disse varene har du nok av(mer enn 3):</h1>
+    <ul id="list-item-1"></ul>
+    <br />
+    <h1>Disse varene er det snart tomt for(1 eller 2 igjen):</h1>
+    <ul id="list-item-2"></ul>
+    <br />
+    <h1>Disse varene er det ingenting igjen av:</h1>
+    <ul id="list-item-3"></ul>
+    <br />
+
+    <div id="todo-container">
+      <input type="text" id="input-text" placeholder="Hvilken vare?" />
+      <button id="btn" onclick="addElement()">Legg til</button>
+    </div>
+    <ul id="list-item"></ul>
+    <script src="java.js"></script>
+  </body>
+</html>
