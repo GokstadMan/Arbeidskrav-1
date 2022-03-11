@@ -1,6 +1,9 @@
+
 body {
   background-color: #9d8f84;
   text-align: center;
+  padding: 0;
+  margin: 0;
 }
 
 .intro h1 {
